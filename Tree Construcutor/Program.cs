@@ -8,8 +8,6 @@ Time complexity: 0(n * m) => 0(n ^ 2), n is the length of the array and m is the
 Space complexity will be 0(n), since the number of set keys and corresponding values for the Dictionaries depends on the length of the array, and iterations on the array by the for loop
 */
 
-
-
 static bool TreeConstructor(string[] strArr)
 {
 
