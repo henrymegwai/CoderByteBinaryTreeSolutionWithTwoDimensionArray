@@ -1,38 +1,38 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-//int[,] RectangularArray = new int[4, 5];
+int[,] RectangularArray = new int[4, 5];
 
-//int a = 0;
+int a = 0;
 
-//foreach (int item in RectangularArray)
-//{
-//    Console.Write(item + " ");
-//}
-//Console.WriteLine("\n");
-
-
-//for (int i = 0; i < RectangularArray.GetLength(0); i++)
-//{
-//    for (int j = 0; j < RectangularArray.GetLength(1); j++)
-//    {
-//        a += 5;
-//        RectangularArray[i, j] = a;
-//    }
-//}
+foreach (int item in RectangularArray)
+{
+    Console.Write(item + " ");
+}
+Console.WriteLine("\n");
 
 
-////Printing the values of array by using nested for loop
-////arr.GetLength(0): Returns the size of the Row
-////arr.GetLength(1): Returns the size of the column
-//for (int i = 0; i < RectangularArray.GetLength(0); i++)
-//{
-//    for (int j = 0; j < RectangularArray.GetLength(1); j++)
-//    {
-//        Console.Write(RectangularArray[i, j] + " ");
-//    }
-//}
+for (int i = 0; i < RectangularArray.GetLength(0); i++)
+{
+    for (int j = 0; j < RectangularArray.GetLength(1); j++)
+    {
+        a += 5;
+        RectangularArray[i, j] = a;
+    }
+}
 
-//       Console.ReadKey();
+
+//Printing the values of array by using nested for loop
+//arr.GetLength(0): Returns the size of the Row
+//arr.GetLength(1): Returns the size of the column
+for (int i = 0; i < RectangularArray.GetLength(0); i++)
+{
+    for (int j = 0; j < RectangularArray.GetLength(1); j++)
+    {
+        Console.Write(RectangularArray[i, j] + " ");
+    }
+}
+
+Console.ReadKey();
 
 
 
